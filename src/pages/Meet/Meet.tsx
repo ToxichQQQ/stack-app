@@ -10,7 +10,6 @@ export const Meet = () => {
             </button>
         </div>
         <div className='border-gray-50 w-full h-full border-2 rounded bg-black'>
-
         </div>
         <div>
 

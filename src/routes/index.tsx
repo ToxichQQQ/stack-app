@@ -1,8 +1,6 @@
 import {createBrowserRouter} from "react-router-dom"
-import {Meet} from "../pages/Meet";
-import {Login} from "../pages/Login";
-import {Layout} from "../pages/Layout";
-import {Registration} from "../pages/Registration";
+import {Layout, Login, NoMatch, Registration, Meet} from "../pages"
+
 
 const routes = [
     {
@@ -20,6 +18,10 @@ const routes = [
             {
                 path: "meet",
                 element: <Meet/>,
+            },
+            {
+                path: '*',
+                element: <NoMatch/>
             }
             ],
     },
